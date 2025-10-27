@@ -34,12 +34,12 @@ cd webhook-inpector
 
 2. Suba os containers Docker:
 ```bash
-npm run compose:up
+bun run compose:up
 ```
 
 3. Acesse o container:
 ```bash
-npm run compose:exec
+bun run compose:exec
 ```
 
 4. Instale as dependências do backend:
@@ -92,9 +92,9 @@ bun run dev
 ## 📝 Scripts Disponíveis
 
 ### Root
-- `npm run compose:up` - Sobe os containers Docker
-- `npm run compose:down` - Para e remove os containers
-- `npm run compose:exec` - Acessa o container principal
+- `bun run compose:up` - Sobe os containers Docker
+- `bun run compose:down` - Para e remove os containers
+- `bun run compose:exec` - Acessa o container principal
 
 ### Backend
 - `bun run dev` - Inicia servidor de desenvolvimento
